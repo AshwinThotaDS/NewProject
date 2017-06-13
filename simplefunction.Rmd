@@ -1,0 +1,16 @@
+---
+title: "SimpleFuntion"
+output: 
+html_document:
+ keep_md: true
+ 
+---
+# Example code for using r studio with git and git hub
+
+```{r}
+se<-function(x){
+sd(x)/length(x)
+
+}
+```
+
